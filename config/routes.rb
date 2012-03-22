@@ -1,3 +1,4 @@
 Demo::Application.routes.draw do
-   root :to => 'welcome#index'
+  resources :reasons
+  root :to => 'welcome#index'
 end
